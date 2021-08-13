@@ -1,0 +1,53 @@
+/* general style and fonts */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', Sans-Serif;
+  color: #002627;
+}
+
+a,
+p,
+li {
+  font-family: 'Lora', Serif;
+  color: #002627;
+}
+
+body {
+  background-color: #cdcdcd;
+}
+
+h2 {
+  margin: 2em 0;
+  text-align: center;
+}
+
+p {
+  line-height: 2em;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section.project {
+  height: 150px;
+  width: 340px;
+  background-color: #3f3f3f;
+  border-radius: 8px;
+  margin: 30px 45px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main section.project:hover {
+  transform: scale(0.95);
+  transition: transform 0.25s;
+  cursor: pointer;
+}
