@@ -33,21 +33,27 @@ p {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-main section.project {
+main div.project {
   height: 300px;
-  width: 400px;
   background-color: #3f3f3f;
   border-radius: 8px;
   margin: 30px 45px;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* display: flex; */
+  justify-content: center;
 }
 
-main section.project:hover {
+main div.project:hover {
   transform: scale(0.95);
   transition: transform 0.25s;
   cursor: pointer;
+}
+
+main div p {
+  width: inherit;
 }
