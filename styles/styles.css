@@ -36,8 +36,8 @@ main {
 }
 
 main section.project {
-  height: 150px;
-  width: 340px;
+  height: 300px;
+  width: 400px;
   background-color: #3f3f3f;
   border-radius: 8px;
   margin: 30px 45px;
