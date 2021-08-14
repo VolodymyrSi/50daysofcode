@@ -36,6 +36,17 @@ main {
   justify-content: center;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+section p {
+  max-width: 55vw;
+  text-align: center;
+}
+
 main div.project {
   height: 300px;
   background-color: #3f3f3f;
@@ -44,8 +55,7 @@ main div.project {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* display: flex; */
-  justify-content: center;
+  min-width: 60vw;
 }
 
 main div.project:hover {
