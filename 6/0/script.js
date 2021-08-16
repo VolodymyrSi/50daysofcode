@@ -1,8 +1,6 @@
 const boxes = document.querySelectorAll('.box');
 
-window.addEventListener('scroll', checkBoxes);
-
-function checkBoxes() {
+const checkBoxes = () => {
   const triggerBottom = (window.innerHeight / 5) * 3.5;
   console.log(triggerBottom);
   boxes.forEach((box) => {
@@ -14,5 +12,7 @@ function checkBoxes() {
     }
   });
 };
+
+window.addEventListener('scroll', checkBoxes);
 
 checkBoxes();
