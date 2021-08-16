@@ -39,7 +39,12 @@ main {
 section {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
+  border-top: 2px solid;
+}
+
+section:first-child{
+  border: none;
 }
 
 section p {
