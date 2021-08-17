@@ -22,36 +22,46 @@ body {
 }
 
 h2 {
-    font-size: 4rem;
-    color: #fff;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    /* to put in the middle: */
-    transform: translateX(-50%);
-    /* so it does not wrap onto a new line: */
-    white-space: nowrap;
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  /* to put in the middle: */
+  transform: translateX(-50%);
+  /* so it does not wrap onto a new line: */
+  white-space: nowrap;
 }
 
 .btn {
-    position: absolute;
-    /* to put text in the center use flex */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    left: 50%;
-    top: 40%;
-    /* again move in the middle: */
-    transform: translateX(-50%);
-    /* remove the underline */
-    text-decoration: none;
-    color: #fff;
-    border: #fff solid 0.2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: 15rem;
-    padding: 1.5rem;
+  position: absolute;
+  /* to put text in the center use flex */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  top: 40%;
+  /* again move in the middle: */
+  transform: translateX(-50%);
+  /* remove the underline */
+  text-decoration: none;
+  color: #fff;
+  border: #fff solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 15rem;
+  padding: 1.5rem;
+}
+
+.split.left .btn:hover {
+  background-color: var(--left-btn-hover-color);
+  border-color: var(--left-btn-hover-color);
+}
+
+.split.right .btn:hover {
+  background-color: var(--right-btn-hover-color);
+  border-color: var(--right-btn-hover-color);
 }
 
 .container {
