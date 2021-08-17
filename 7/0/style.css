@@ -33,6 +33,27 @@ h2 {
     white-space: nowrap;
 }
 
+.btn {
+    position: absolute;
+    /* to put text in the center use flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 40%;
+    /* again move in the middle: */
+    transform: translateX(-50%);
+    /* remove the underline */
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 15rem;
+    padding: 1.5rem;
+}
+
 .container {
   position: relative;
   width: 100%;
