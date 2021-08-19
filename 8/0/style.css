@@ -59,6 +59,12 @@ body {
 }
 
 
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
 .btn {
     cursor: pointer;
     display: inline-block;
