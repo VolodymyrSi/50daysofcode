@@ -49,5 +49,10 @@ body {
     width: 100%;
     padding: 15px 0;
     font-size: 18px;
+    color: #fff;
 }
 
+/* removes the white border when the form is active */
+.form-control input:focus, .form-control input:valid {
+    outline: 0;
+}
