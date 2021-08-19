@@ -1,58 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    background-color: steelblue;
-    color: #fff;
-    font-family: 'Mulish', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
+  background-color: steelblue;
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 20px 40px;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 5px;
 }
 
 .container h1 {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .container a {
-    text-decoration: none;
-    color: lightblue;
+  text-decoration: none;
+  color: lightblue;
 }
 
 .form-control {
-    position: relative;
-    margin: 20px 0 40px;
-    width: 300px;
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
 }
 
 .form-control input {
-    /* color removes white blocks*/
-    background-color: transparent;
-    border: 0;
-    border-bottom: 2px #fff solid;
-    /* to move onto its own line */
-    display: block;
-    width: 100%;
-    padding: 15px 0;
-    font-size: 18px;
-    color: #fff;
+  /* color removes white blocks*/
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  /* to move onto its own line */
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
 }
 
 /* removes the white border when the form is active */
-.form-control input:focus, .form-control input:valid {
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+}
+
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: lightblue;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.btn:focus {
     outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 30px;
 }
