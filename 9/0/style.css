@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 *{
     box-sizing: border-box;
@@ -26,4 +26,9 @@ body {
     padding: 1.5rem 3rem;
     font-size: 1.2rem;
     font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
 }
